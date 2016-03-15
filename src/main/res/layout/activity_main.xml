@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.sideslip.MySideslipView
+    android:id="@+id/sideslipview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    my:rightPadding="100dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="horizontal">
+
+        <include layout="@layout/bottom" />
+
+        <include layout="@layout/top" />
+
+    </LinearLayout>
+
+</com.example.sideslip.MySideslipView>
+
